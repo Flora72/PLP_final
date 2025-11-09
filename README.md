@@ -68,7 +68,7 @@ This deck outlines the emotional logic, survivor-first design principles, and st
 ## Deployed Link
 
 Explore the live site:  
-👉 [Healing Atlas](https://healingatlas.onrender.com/)
+👉 [Healing Atlas](https://healing-atlas.onrender.com/)
 
 ---
 
