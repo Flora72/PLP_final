@@ -69,7 +69,7 @@ WSGI_APPLICATION = 'atlas_core.wsgi.application'
 
 
 DATABASES = {
-    'default': dj_database_url.config(default='postgresql://healingatlas_db_user:GId7zYl4FO3d30lqWLugMLW0uLVFGgVv@dpg-d2qtt1qdbo4c73ck06rg-a.oregon-postgres.render.com/healingatlas_db')
+    'default': dj_database_url.config(default='postgresql://healingatlas_db_0c34_user:4E25zZ7egHwovJnAf2tgrzgOoFh5h9W3@dpg-d487o1q4d50c738k0740-a/healingatlas_db_0c34')
 }
 
 # Static files
