@@ -69,14 +69,7 @@ WSGI_APPLICATION = 'atlas_core.wsgi.application'
 
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': 'healingatlas_db',
-        'ENFORCE_SCHEMA': False,
-        'CLIENT': {
-            'host': 'mongodb+srv://zahratheo569_db_user:DK2lhYt35u26sKjF@cluster0.pgwbibk.mongodb.net/?appName=Cluster0'
-        }
-    }
+    'default': dj_database_url.config(default='postgresql://healingatlas_db_user:GId7zYl4FO3d30lqWLugMLW0uLVFGgVv@dpg-d2qtt1qdbo4c73ck06rg-a.oregon-postgres.render.com/healingatlas_db')
 }
 
 # Static files
