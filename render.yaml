@@ -7,3 +7,4 @@ services:
       python manage.py collectstatic --noinput
     startCommand: python manage.py migrate && gunicorn atlas_core.wsgi:application
     staticPublishPath: staticfiles
+    pythonVersion: 3.12.3
